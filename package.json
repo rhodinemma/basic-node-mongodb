@@ -1,0 +1,21 @@
+{
+  "name": "node-mongodb",
+  "version": "1.0.0",
+  "description": "Just another Restful with NodeJs working with MongoDB, includes tests too!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "author": "Rhodin Emmanuel Nagwere",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}
