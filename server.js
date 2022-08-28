@@ -1,8 +1,10 @@
 const express = require("express");
 const app = express();
+const blogRouter = require("./routes/BlogRoutes");
 
 //middleware
 app.use(express.json());
+app.use("/api/blogs", blogRouter);
 
 const mongoose = require("mongoose");
 //configure mongoose
